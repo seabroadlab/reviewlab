@@ -7,10 +7,11 @@ N X P matriced data; N row and P colum, N observations with P variables
 if you type <b>c("something","Hello")</b> it generates the Char values 
 ## Subset Function
 Just like logical function of MATLAB, it can substract the subset from the dataset and make it into specific(another) dataset
-</br><b>subset
+</br><b>subset</b>
 
 ## Capital Letters
 R specifies the capital letters different from the lower letters
+
 ## Read and Load
 <b>Getwd();</b> get working directory file that we are using
 <b>setwd();</b> set the directory addresses
