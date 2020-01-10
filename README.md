@@ -5,6 +5,9 @@ type <b>??_functionname_</b>
 N X P matriced data; N row and P colum, N observations with P variables
 ## Char and String and Numerical variable
 if you type <b>c("something","Hello")</b> it generates the Char values 
+## Subset Function
+Just like logical function of MATLAB, it can substract the subset from the dataset and make it into specific(another) dataset
+</br><b>subset
 
 ## Capital Letters
 R specifies the capital letters different from the lower letters
@@ -46,3 +49,27 @@ If we want to deselect, get rid of certain variables from _dat1_, we can use var
 </br><b>dat1_modified2 <- dat1[,-8:-10]</b>
   </br><b>dat_modified3 <- dat1[-8:-10,]</b>
   
+# Plotting and Test Analysis
+## Correlation
+corr_matrix$Call :If you type it you can see what you've did to the corr_matrix and track the changes or variables you are using
+
+## Standardization
+scale(datafile[
+
+## T-test
+<b> t.test(d[,], d[,])</b>, </br> Usually it require datasets to be kind of in line to each other(maybe dimensions?)
+**OR**
+</br>Other ways to do it with using variables neames </br><b>t.test(d$QualityOfLife[1:25], d$QualityOfLife[26:50])</b>
+
+## ANOVA
+<b> anova(X,Y) </b>,</br> you can put even models in X and Y
+## Regression
+- Simple regression
+- Multiple regression
+- Hierarchical regression(: Adding new predictors in model to see if "Do XX factors predicting XX beyond XX factor?"/this is a technique to see if a variable adds incremental variance for predicting an outcome)
+
+## Plotting Interaction
+<b>interact_plot(model_5, pred=Neuroticism, modx=Extraversion)</b> </br>use the variables from interaction of interest
+</br>high E and N is associated with high unemployment; high E and low N is associated with low unemployment
+</br>N is not related to unemployment when E is low
+</br>we can plot it with Neuroticism as the moderator too. Theory must lead the way here
